@@ -30,7 +30,7 @@ import java.io.OutputStream;
 import java.util.Set;
 import java.util.UUID;
 /**
- * Created by YaDajin on 2018/12/26/11:41.
+ * Created by YaDajin on 2018/12/26/11:46
  */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private BluetoothAdapter bluetoothAdapter;
