@@ -1,37 +1,30 @@
+/**
+ * Created by YaDajin on 2018/12/26/11:46
+ */
 package com.example.as.myapplication;
-
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothServerSocket;
 import android.bluetooth.BluetoothSocket;
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-
 import android.view.MotionEvent;
 import android.view.View;
-
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.example.as.myapplication.BlueToothDeviceAdapter;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Set;
 import java.util.UUID;
-/**
- * Created by YaDajin on 2018/12/26/11:46
- */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private BluetoothAdapter bluetoothAdapter;
     private ListView listView;
@@ -39,7 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView info =null;
     private TextView text_state;
     private TextView text_msg;
-
     private final int BUFFER_SIZE = 1024;
     private static final String NAME = "BT_DEMO";
     private static final UUID BT_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");//02001101-0001-1000-8080-00805F9BA9BA
