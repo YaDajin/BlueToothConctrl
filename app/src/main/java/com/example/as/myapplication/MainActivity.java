@@ -29,7 +29,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Set;
 import java.util.UUID;
-//修改的文件
+/**
+ * Created by YaDajin on 2018/12/26/11:41.
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private BluetoothAdapter bluetoothAdapter;
     private ListView listView;

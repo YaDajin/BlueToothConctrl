@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:minHeight="58dp"
     android:padding="5dp">
-    <!--修改的文件-->
+    <!--Created by YaDajin on 2018/12/26/11:41-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

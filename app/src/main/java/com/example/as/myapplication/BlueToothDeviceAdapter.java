@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.example.as.myapplication.BlueToothDeviceAdapter;
 
 /**
- * Created by 牙大金 on 2018/12/20.
+ * Created by YaDajin on 2018/12/26/11:41.
  */
 public class BlueToothDeviceAdapter extends ArrayAdapter<BluetoothDevice> {
 
