@@ -29,7 +29,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Set;
 import java.util.UUID;
-
+//修改的文件
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private BluetoothAdapter bluetoothAdapter;
     private ListView listView;
