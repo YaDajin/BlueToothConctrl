@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyBluetoothDemo</string>
+    <string name="app_name">坐标小车</string>
     <string name="open_bt">打开蓝牙</string>
     <string name="search">搜索设备</string>
     <string name="send_msg">发送消息</string>
