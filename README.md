@@ -1,3 +1,5 @@
 # BlueToothConctrl
-This is a test Project!
+
 蓝牙坐标控制
+log：大二绘蓝杯作品，智能小车控制app
+use：通过界面的坐标系，用户点击坐标点，就可以将坐标点数据发送至智能小车端，提供定位导航服务。
